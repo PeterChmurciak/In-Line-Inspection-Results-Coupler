@@ -36,6 +36,8 @@ class In_Line_Inspection_Result_Coupler_GUI(tk.Frame, ABC):
 
         # Changing the icon
         self.master.iconbitmap(self.path_to_main_menu_icon)
+        self.master.title("Inspection Result Coupler")
+        self.master.resizable(False, False)
 
         self.frame_file_choice = tk.LabelFrame(self)
 
